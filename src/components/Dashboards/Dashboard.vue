@@ -9,20 +9,12 @@
           <div class="col-lg-10">
             <div>
               <div class="row">
-                <header class="col-md-12 ml-0 bg-light shadow-lg">
+                <header class="col-md-12 ml-0 bg-light shadow-sm">
                   <compHeader />
                 </header>
               </div>
-              <div>
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Impedit, saepe possimus quaerat eligendi dolores hic,
-                  harum nihil explicabo eius ad quo mollitia blanditiis. Atque
-                  rerum officiis reiciendis porro inventore voluptate vero incidunt
-                  distinctio iusto aperiam pariatur repudiandae, beatae eveniet nemo
-                  labore fugit expedita a laudantium voluptates at esse.
-                  Molestias, veritatis?
-                </p>
+              <div class="mt-3">
+                <compHome/>
               </div>
               <footer class="row mx-auto">
                 <comp-footer />
@@ -39,6 +31,7 @@
 import Header from "./Header_Footer/Header.vue";
 import Footer from "./Header_Footer/Footer.vue";
 import SideNav from "./Navs/Sidenav";
+import Home from "./../Views/Home.vue";
 export default {
   data() {
     return {};
@@ -46,7 +39,8 @@ export default {
   components: {
     compHeader: Header,
     compFooter: Footer,
-    compSideNav: SideNav
+    compSideNav: SideNav,
+    compHome:Home,
   }
 };
 </script>
