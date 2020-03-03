@@ -5,29 +5,29 @@
         <p class="text-uppercase text-secondary mb-0 pb-0 text-size">Dashboard</p>
         <h3 class="mb-4 pt-0">Blog Overview</h3>
       </div>
-      <div class="col-md-12 mx-4">
-        <div class="row">
-          <div class="col-lg-2 w-75 h-100 text-center bg-white rounded mx-1 shadow-lg">
+      <div class="col-md-12  mx-4">
+        <div class="row container-fluid">
+          <div class="col-lg-2 col-sm-12 my-2 w-75 h-100 text-center bg-white rounded mx-3 shadow-lg">
             <h2 class="text-size mt-3 text-uppercase text-secondary">Users</h2>
             <h2 class="text-dark">2,390</h2>
             <p style="color:green">4.3%</p>
           </div>
-          <div class="col-lg-2 w-75 h-100 text-center bg-white rounded mx-3 shadow-lg">
+          <div class="col-lg-2 col-sm-12 my-2 w-75 h-100 text-center bg-white rounded mx-3 shadow-lg">
             <h2 class="text-size mt-3 text-uppercase text-secondary">Subscriptions</h2>
             <h2 class="text-dark">390</h2>
             <p style="color:green">12.3%</p>
           </div>
-          <div class="col-lg-2 w-75 h-100 text-center bg-white rounded mx-3 shadow-lg">
+          <div class="col-lg-2 col-sm-12 my-2 w-75 h-100 text-center bg-white rounded mx-3 shadow-lg">
             <h2 class="text-size mt-3 text-uppercase text-secondary">Posts</h2>
             <h2 class="text-dark">190</h2>
             <p style="color:green">2.3%</p>
           </div>
-          <div class="col-lg-2 w-75 h-100 text-center bg-white rounded mx-3 shadow-lg">
+          <div class="col-lg-2 col-sm-12 my-2 w-75 h-100 text-center bg-white rounded mx-3 shadow-lg">
             <h2 class="text-size mt-3 text-uppercase text-secondary">Events</h2>
             <h2 class="text-dark">290</h2>
             <p style="color:green">1.3%</p>
           </div>
-          <div class="col-lg-2 w-75 h-100 text-center bg-white rounded mx-3 shadow-lg">
+          <div class="col-lg-2 col-sm-12 my-2 w-75 h-100 text-center bg-white rounded mx-3 shadow-lg">
             <h2 class="text-size mt-3 text-uppercase text-secondary">Comments</h2>
             <h2 class="text-dark">490</h2>
             <p style="color:green">6.3%</p>
@@ -131,5 +131,8 @@ h4 {
     height: 4vh;
     padding: none !important;
     margin: none !important;
+}
+.w-75{
+  width: 150vh !important;
 }
 </style>

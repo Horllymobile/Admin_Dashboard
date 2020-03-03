@@ -3,13 +3,13 @@
         <nav class="nav-bar nav">
             <ul class="nav">
                 <li class="nav-item">
-                    <a href="" class="nav-link">Home</a>
+                    <router-link to="/" class="nav-link text-secondary p-3 text-center">Home</router-link>
                 </li>
                  <li class="nav-item">
-                    <a href="" class="nav-link">About</a>
+                    <router-link to="/About" class="nav-link text-secondary p-3 text-center">About</router-link>
                 </li>
                  <li class="nav-item">
-                    <a href="" class="nav-link">Service</a>
+                    <router-link to="/Services" class="nav-link text-secondary p-3 text-center">Services</router-link>
                 </li>
             </ul>
         </nav>

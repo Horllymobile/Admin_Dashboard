@@ -2,46 +2,40 @@
   <div>
     <div class="shadow-sm">
       <div class="container-fluid">
-        <nav class="nav-vertical navbar-expand-md navbar-light">
-          <a href="#" class="navbar-brand">Plunex-Hub</a>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <nav class="nav-vertical navbar-expand-lg navbar-light">
+            <router-link to="/" class="navbar-brand">Plunex-Hub</router-link>
+          <button class="navbar-toggler flex-md-right" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
           </button>
           <hr />
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar nav ">
               <div class="nav-item">
-                <a href class="nav-link text-secondary p-3 text-center">Home</a>
+                <router-link to="/" class="nav-link text-secondary p-3 text-center">Home</router-link>
               </div>
               <div class="nav-item">
-                <a href class="nav-link text-secondary p-3 text-center">Users</a>
+                <router-link to="/Users" class="nav-link text-secondary p-3 text-center">Users</router-link>
               </div>
               <div class="nav-item">
-                <a href class="nav-link text-secondary p-3 text-center">Subscriptions</a>
+                 <router-link to="/Events" class="nav-link text-secondary p-3 text-center">Events</router-link>
               </div>
               <div class="nav-item">
-                <a href class="nav-link text-secondary p-3">Post</a>
+                <router-link to="/Team" class="nav-link text-secondary p-3 text-center">Teams</router-link>
               </div>
               <div class="nav-item">
-                <a href class="nav-link text-secondary p-3">Events</a>
+                <router-link to="/Membership" class="nav-link text-secondary p-3 text-center">Memberships</router-link>
               </div>
               <div class="nav-item">
-                <a href class="nav-link text-secondary p-2">Teams</a>
+                <router-link to="/Purchases" class="nav-link text-secondary p-3 text-center">Purchases</router-link>
               </div>
               <div class="nav-item">
-                <a href class="nav-link text-secondary p-2">Memberships</a>
+                <router-link to="/Staffs" class="nav-link text-secondary p-3 text-center">Staffs</router-link>
               </div>
               <div class="nav-item">
-                <a href class="nav-link text-secondary p-2">Purchases</a>
+                <router-link to="/Attendance" class="nav-link text-secondary p-3 text-center">Attendance</router-link>
               </div>
               <div class="nav-item">
-                <a href class="nav-link text-secondary p-2">Staffs</a>
-              </div>
-              <div class="nav-item">
-                <a href class="nav-link text-secondary p-2">Attendance</a>
-              </div>
-              <div class="nav-item">
-                <a href class="nav-link text-secondary p-2">Settings</a>
+                <router-link to="/Settings" class="nav-link text-secondary p-3 text-center">Settings</router-link>
               </div>
             </div>
           </div>
