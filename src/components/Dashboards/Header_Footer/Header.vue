@@ -27,7 +27,9 @@
                 </button>
                 <div class="dropdown-menu">
                   <router-link to="/Users" class="dropdown-item ">Profile</router-link>
+                   <hr>
                   <router-link to="/Settings" class="dropdown-item">Settings</router-link>
+                  <hr>
                   <router-link to="/" class="dropdown-item">Logout</router-link>
                 </div>
               </div>

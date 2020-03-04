@@ -2,7 +2,7 @@
   <div>
     <div class="container-fluid">
       <div class>
-        <div class="row flex">
+        <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-2 bg-light shadow-lg">
             <compSideNav />
           </div>
